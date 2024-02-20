@@ -1,0 +1,11 @@
+Source: nat66-systemd
+Section: contrib/utils
+Priority: optional
+Maintainer: HPPinata <>
+Build-Depends: debhelper-compat (= 12)
+Standards-Version: 4.4.4
+Homepage: https://github.com/HPPinata/unifi-nat66
+
+Package: nat66-systemd
+Architecture: all
+Description: NAT66 systemd service for ULA masquerading

@@ -1,0 +1,13 @@
+[Unit]
+Description=Enable NAT66 on Startup
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=bash -c 'ip6tables -t nat -A POSTROUTING -o eth1 -j MASQUERADE'
+ExecStop=bash -c 'ip6tables -t nat -D POSTROUTING -o eth1 -j MASQUERADE'
+RemainAfterExit=true
+
+[Install]
+WantedBy=multi-user.target
