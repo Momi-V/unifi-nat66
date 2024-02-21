@@ -30,6 +30,7 @@ jobs:
       - name: build
         run: |
           sudo apt update && sudo apt install -y dh-make
+          cd nat66-systemd
           dpkg-buildpackage -tc -b
 
       # Release custom ISO
