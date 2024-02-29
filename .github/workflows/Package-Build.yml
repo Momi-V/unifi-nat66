@@ -38,5 +38,5 @@ jobs:
         with:
           commit: "main"
           name: "deb package"
-          tag: "0.1"
+          tag: "0.2"
           artifacts: "nat66-systemd_0.1_all.deb"
