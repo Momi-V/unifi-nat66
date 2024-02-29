@@ -1,3 +1,10 @@
+nat66-systemd (0.2) stable; urgency=medium
+
+  * Masquerade just the fd00::0/8 ULA space
+
+ -- HPPinata <>  Thu, 29 Feb 2024 19:24:42 +0100
+
+
 nat66-systemd (0.1) stable; urgency=medium
 
   * Initial Version 
