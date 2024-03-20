@@ -1,3 +1,10 @@
+nat66-systemd (0.3) stable; urgency=medium
+
+  * Masquerade documentation address space
+
+ -- HPPinata <>  Wed, 20 Mar 2024 14:20:02 +0100
+
+
 nat66-systemd (0.2) stable; urgency=medium
 
   * Masquerade just the fd00::0/8 ULA space
