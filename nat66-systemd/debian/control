@@ -1,7 +1,7 @@
 Source: nat66-systemd
 Section: contrib/utils
 Priority: optional
-Maintainer: HPPinata <>
+Maintainer: Momi-V <>
 Build-Depends: debhelper-compat (= 12)
 Standards-Version: 4.4.4
 Homepage: https://github.com/Momi-V/unifi-nat66
